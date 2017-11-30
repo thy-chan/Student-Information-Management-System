@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="stu-info-man-sys">
+    <output-path>C:/Others/tomcat/apache-tomcat-9.0.1/webapps/stu_info_man_sys</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="mvc/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mvc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.42-bin" />
+        </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/WebRoot" />
+      </element>
+    </root>
+  </artifact>
+</component>
